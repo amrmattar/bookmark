@@ -1,0 +1,146 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.valid{
+    background-color: rgb(255, 79, 79);
+    height: 28px;
+    display: none;
+}
+#v1{
+    background-color: rgb(255, 79, 79);
+    height: 28px;
+    display: none;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+.well {
+  width: 100%;
+background-image: linear-gradient(#EEE,#FFF);
+	border:none;
+	text-align:left;
+	padding:10px;
+}
+.well a {
+  text-align: center;
+  text-decoration: none;
+}
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    background-color:#e5e5e5;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 6px 10px;
+  font-size: 21px;
+}
+
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.btn{
+	padding:10px 15px;
+	font-size:15px;
+	margin:15px 5px;
+	cursor: pointer;
+	border-radius:5px;
+	max-width:fit-content;
+}
+.btn:hover{
+	box-shadow: 2px 5px 3px 0px #888;
+}
+.btn-primary{
+	background-color:#1167c4;
+	color:white;
+	border:1px solid #1167c4;
+	
+}
+.btn-primary:hover {
+	background-color:#0a3f77;
+	border: 1px solid #0a3f77;
+}
+.btn-danger {
+	background-color:#910004;
+	color:white;
+	border : 1px solid #910004;
+}
+.btn-danger:hover{
+	background-color:#510d0e;
+	border: 1px solid #510d0e;
+}
+.btn-search {
+	background-color:#EEE;
+	border:1px solid #EEE;
+}
+.btn-search:hover{
+	background-color:#BBB;
+	border:1px solid #BBB;
+}
+.btn-info{
+	background-color:#139692;
+	COLOR:white;
+	border:1px solid #139692;
+}
+.btn-info:hover{
+	background-color:#0a6865;
+	border:1px solid #0a6865;
+}
+
